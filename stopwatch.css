@@ -1,0 +1,82 @@
+#header{
+    height: 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #F6F1F1;
+    box-shadow: 0px 5px 5px 0px #c3bebe ;
+}
+
+#title{
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: Noto Sans KR;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch{
+    text-align: center;
+}
+
+#start{
+    width: 100%;
+}
+
+#runningBox{
+    display: none;
+}
+
+#list{
+    margin-bottom: 5px;
+    overflow-y: auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+#list::-webkit-scrollbar{
+    width: 3px;
+}
+
+#list::-webkit-scrollbar-thumb {
+    background-color: #146C94;
+}
+
+#list::-webkit-scrollbar-track {
+    background-color: white; /*스크롤바 트랙 색상*/
+}
+
+.runningButton{
+    width: 32%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+button{
+    height: 36px;
+    background-color: #AFD3E2;
+    border-color: #19A7CE;
+}
+
+table, th, td {
+    border: 2px solid #AFD3E2;
+}
+
+table{
+    margin-bottom: 3px;
+}
+
+th {
+    width: 100px;
+    font-size: 30px;
+}
+
+td {
+    font-size: 43px;
+}

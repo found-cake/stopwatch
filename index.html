@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/stopwatch/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="stopwatch.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="title">Stopwatch</h1>
+    </div>
+    <div id="app">
+        <div id="stopwatch">
+            <table>
+                <th>min</th>
+                <th>sec</th>
+                <th>cs</th>
+                <tr>
+                    <td colspan="3">
+                        <span id="min">00</span>&ensp;:&ensp;
+                        <span id="sec">00</span>&ensp;:&ensp;
+                        <span id="cs">00</span>
+                    </td>
+                </tr>
+            </table>
+            <button id="start">시작</button>
+            <div id="runningBox">
+                <button class="runningButton" id="stop">정지</button>
+                <button class="runningButton" id="record">기록</button>
+                <button class="runningButton" id="reset">초기화</button>
+            </div>
+        </div>
+        <div id="list">
+            <!--record-->
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
